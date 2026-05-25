@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Tuple, TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from uas_apl import ProposalContext
+    from state_pattern import ProposalContext
 
 
 class ValidationStrategy(ABC):
